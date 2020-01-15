@@ -1,0 +1,10 @@
+sum=0,n=0;
+counter=1083,countdown=88;
+for(;counter>=22;)
+{
+    sum=sum+counter;
+    counter=counter-countdown;
+    n++;
+}
+console.log(sum);
+console.log(n);
